@@ -14,15 +14,15 @@ $projects = docker exec consumer-service ls /apps/substrate-home | ForEach-Objec
 foreach ($project in $projects) {
     $src = "/apps/substrate-home/$project"
     $dest = Join-Path $BaseDir $project
-
+    
     # If a folder with the same name exists, append a number to avoid overwriting
     $count = 1
     while (Test-Path $dest) {
         $dest = Join-Path $BaseDir ("{0}_{1}" -f $project, $count)
         $count++
     }
-
+    
     # Copy the project
-    docker cp "consumer-service:`$src" "$dest"
+    docker cp "consumer-service:$src" "$dest"
     Write-Output "Copied $project to $dest"
 }
