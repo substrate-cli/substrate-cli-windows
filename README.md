@@ -2,7 +2,9 @@
 Substrate CLI directions, for Windows.
 
 # run substrate-cli
+make sure to download and run docker daemon before running substrate-cli.     
 cd into the directory and summon a terminal from that directory, type in '.\subs2.bat', or simply double click subs2.bat    
+if downloaded via a zip then make sure to extract the folder and then summoning a powershell terminal from that directory.     
 ```bash 
 .\subs2.bat
 ```
