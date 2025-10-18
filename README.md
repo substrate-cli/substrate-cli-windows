@@ -9,7 +9,7 @@ if downloaded via a zip then make sure to extract the folder and then summoning 
 .\subs2.bat
 ```
 
-to download a generated project, run '.\download.bat' or simply double click subs2.bat
+to download a generated project, run '.\download.bat' or simply double click download.bat
 ```bash
 .\download.bat
 ```
