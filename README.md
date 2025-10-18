@@ -4,7 +4,7 @@ Substrate CLI directions, for Windows.
 # run substrate-cli
 cd into the directory and summon a terminal from that directory, type in '.\subs2.bat', or simply double click subs2.bat    
 ```bash 
-..\subs2.bat
+.\subs2.bat
 ```
 
 to download a generated project, run '.\download.bat' or simply double click subs2.bat
